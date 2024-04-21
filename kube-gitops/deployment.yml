@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: pun-api
-          image: ghcr.io/danyouknowme/devops-cicd:adf944f2a6f226ba42f617008e4e1885a38c828e
+          image: ghcr.io/danyouknowme/devops-cicd:b13b3524c268f10296300778add27ef42875dafc
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
